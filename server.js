@@ -16,7 +16,7 @@ const profile=require('./controllers/profile');
   const db= knex ({
   client: 'pg',
   connection: {
-    host : '127.0.0.1',
+    host : 'postgresql-cubed-89452',
     user : 'postgres',
     password : 'nisha123',
     database : 'postgres'
