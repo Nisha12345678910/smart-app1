@@ -51,7 +51,7 @@ app.post('/register',(req ,res)=>{register.handleRegister(req,res ,db,bcrypt)})
 
 app.get('/profile/:id' ,(req ,res)=>{profile.handleProfile(req ,res ,db)} )
 
-app.post('/imageUrl',(req ,res)=>{image.handleApi(req ,res)})
+app.post('/imageurl',(req ,res)=>{image.handleApi(req ,res)})
 
 
 app.listen(port , ()=> {
