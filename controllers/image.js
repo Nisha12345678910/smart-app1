@@ -36,5 +36,6 @@ res.json(entries[0]);
 }
 
 module.exports={
-	handleImage: handleImage
+	handleImage ,
+  handleApi
 }
